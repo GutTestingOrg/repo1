@@ -12,5 +12,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Run a one-line script
-        run: echo ${secret.TEST}
+        run: echo ${{secrets.TEST}}
 
